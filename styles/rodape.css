@@ -1,17 +1,16 @@
-
-hr{
+hr {
     margin: 0;
 }
 
-.rodape{
+.rodapé {
     padding: 1em;
 }
 
-.rodape__texto{
+.rodapé__titulo {
     margin: 1em;
 }
 
-.lista__rodapé{
+.lista-rodapé{
     display: none;
 }
 
@@ -48,13 +47,13 @@ hr{
     }
 }
 
-@media screen and (min-width: 1728px){
-    .lista-rodapé{
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
         border-left: 1px solid black;
         padding-left: 1em;
     }
 
-    .rodapé{
+    .rodapé {
         padding: 2em;
     }
 }
